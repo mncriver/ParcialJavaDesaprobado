@@ -14,7 +14,7 @@ public class Factura {
 	public double getTotal()
 	{
 		
-		if (tf.ivaDiscriminado=true)
+		if (tf.ivaDiscriminado==true)
 		{
 			return total;
 		}
