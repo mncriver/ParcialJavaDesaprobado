@@ -20,7 +20,7 @@ public class Factura {
 		}
 		else
 		{
-			return (total-getIva());
+			return (total-iva);
 		}
 	}
 	public double getIva()
