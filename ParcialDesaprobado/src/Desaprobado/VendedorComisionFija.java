@@ -19,8 +19,9 @@ public class VendedorComisionFija extends Vendedor{
 		
 	for(Factura f:facturas)
 	{
-		bono =(getPorcentajeComision()/f.getTotal());
+		sumaTotales =sumaTotales+f.getTotal();
 	}
+	bono=getPorcentajeComision()/sumaTotales;
 	return bono;
 		
 		}
